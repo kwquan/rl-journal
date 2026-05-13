@@ -1,0 +1,4 @@
+baseURL = "https://kwquan/rl-journal.github.io/"
+languageCode = "en-us"
+title = "RL Journal"
+theme = "PaperMod"
