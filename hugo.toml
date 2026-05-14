@@ -6,6 +6,7 @@ theme = "PaperMod"
 [params]
   showAllPagesInSection = true
   mainSections = []
+  ShowBreadCrumbs = false
 
 [[menu.main]]
   name = "Notes"
