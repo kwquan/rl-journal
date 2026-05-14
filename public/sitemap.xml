@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/</loc>
     <lastmod>2026-05-13T10:54:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kwquan.github.io/rl-journal/</loc>
     <lastmod>2026-05-13T10:54:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/sutton-ch3/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch3/</loc>
     <lastmod>2026-05-13T10:54:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kwquan.github.io/rl-journal/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kwquan.github.io/rl-journal/tags/</loc>
   </url>
 </urlset>

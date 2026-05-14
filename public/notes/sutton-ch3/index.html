@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Sutton Ch3 | RL Journal</title>
 <meta name="keywords" content="">
 <meta name="description" content="Markov Decision Process
@@ -19,16 +19,16 @@ This diagram shows how state-action values and state-values are linked.
 Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,
 which leads to different states S&rsquo; &amp; reward defined by transition probabilities p(S&rsquo;,r|s,a).">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/notes/sutton-ch3/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="https://kwquan.github.io/rl-journal/notes/sutton-ch3/">
+<link crossorigin="anonymous" href="https://kwquan.github.io/rl-journal/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://kwquan.github.io/rl-journal/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://kwquan.github.io/rl-journal/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://kwquan.github.io/rl-journal/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://kwquan.github.io/rl-journal/apple-touch-icon.png">
+<link rel="mask-icon" href="https://kwquan.github.io/rl-journal/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/notes/sutton-ch3/">
+<link rel="alternate" hreflang="en" href="https://kwquan.github.io/rl-journal/notes/sutton-ch3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,13 +74,88 @@ which leads to different states S&rsquo; &amp; reward defined by transition prob
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="https://kwquan.github.io/rl-journal/notes/sutton-ch3/">
+  <meta property="og:site_name" content="RL Journal">
+  <meta property="og:title" content="Sutton Ch3">
+  <meta property="og:description" content="Markov Decision Process Markov decision process consists of an agent interacting with an environment.
+The agent implements action A in state S at time t, with the environment returning State S and reward R at time t&#43;1.
+Current state contains enough information about the past.
+In otherwords, the future is independent of the past given the present.
+Backup Diagram This diagram shows how state-action values and state-values are linked.
+Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,
+which leads to different states S’ &amp; reward defined by transition probabilities p(S’,r|s,a).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="notes">
+    <meta property="article:published_time" content="2026-05-13T10:54:25+08:00">
+    <meta property="article:modified_time" content="2026-05-13T10:54:25+08:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sutton Ch3">
+  <meta name="twitter:description" content="Markov Decision Process Markov decision process consists of an agent interacting with an environment.
+The agent implements action A in state S at time t, with the environment returning State S and reward R at time t&#43;1.
+Current state contains enough information about the past.
+In otherwords, the future is independent of the past given the present.
+Backup Diagram This diagram shows how state-action values and state-values are linked.
+Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,
+which leads to different states S’ &amp; reward defined by transition probabilities p(S’,r|s,a).">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Notes",
+      "item": "https://kwquan.github.io/rl-journal/notes/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Sutton Ch3",
+      "item": "https://kwquan.github.io/rl-journal/notes/sutton-ch3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Sutton Ch3",
+  "name": "Sutton Ch3",
+  "description": "Markov Decision Process Markov decision process consists of an agent interacting with an environment.\nThe agent implements action A in state S at time t, with the environment returning State S and reward R at time t+1.\nCurrent state contains enough information about the past.\nIn otherwords, the future is independent of the past given the present.\nBackup Diagram This diagram shows how state-action values and state-values are linked.\nStarting from a given state S, the agent takes different actions A with probabilities defined by policy π,\nwhich leads to different states S\u0026rsquo; \u0026amp; reward defined by transition probabilities p(S\u0026rsquo;,r|s,a).\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Markov Decision Process Markov decision process consists of an agent interacting with an environment.\nThe agent implements action A in state S at time t, with the environment returning State S and reward R at time t+1.\nCurrent state contains enough information about the past.\nIn otherwords, the future is independent of the past given the present.\nBackup Diagram This diagram shows how state-action values and state-values are linked.\nStarting from a given state S, the agent takes different actions A with probabilities defined by policy π,\nwhich leads to different states S’ \u0026 reward defined by transition probabilities p(S’,r|s,a).\nState Value State Value[or Value function] measures how good it is to be in a particular state S.\nIt consists of the following: Summation of all probabilities of action A, multiplied to summation of all transition probabilities to different states S’,\nmultiplied to sum of reward + discounted value of next state value V(S’).\nState-Action Value State-Action Value measures how good it is to be in a particular state S AND taking action A. It is. a shortened version of the State value[without the summation over all action probabilities]: Summation of all transition probabilities to different states S’, multiplied to sum of reward + discounted value of next state value V(S’).\nNote that the above equations for both V(S) \u0026 Q(S,A) are known as bellman equations, which will be used as update rules in the next chapter.\n",
+  "wordCount" : "237",
+  "inLanguage": "en",
+  "datePublished": "2026-05-13T10:54:25+08:00",
+  "dateModified": "2026-05-13T10:54:25+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kwquan.github.io/rl-journal/notes/sutton-ch3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "RL Journal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kwquan.github.io/rl-journal/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="header-nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="RL Journal (Alt + H)">RL Journal</a>
+            <a href="https://kwquan.github.io/rl-journal/" accesskey="h" title="RL Journal (Alt + H)">RL Journal</a>
             <div class="logo-switches">
                 <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
@@ -123,23 +198,23 @@ which leads to different states S&rsquo; &amp; reward defined by transition prob
 </div>
   </header> 
   <div class="post-content md-content"><p>Markov Decision Process
-<img alt="MDP" loading="lazy" src="images/mdp.png">
+<img alt="MDP" loading="lazy" src="https://kwquan.github.io/rl-journal/images/mdp.png">
 Markov decision process consists of an agent interacting with an environment.<br>
 The agent implements action A in state S at time t, with the environment returning State S and reward R at time t+1.<br>
 Current state contains enough information about the past.<br>
 In otherwords, the future is independent of the past given the present.</p>
 <p>Backup Diagram
-<img alt="Backup Diagram" loading="lazy" src="images/link.png">
+<img alt="Backup Diagram" loading="lazy" src="https://kwquan.github.io/rl-journal/images/link.png">
 This diagram shows how state-action values and state-values are linked.<br>
 Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,<br>
 which leads to different states S&rsquo; &amp; reward defined by transition probabilities p(S&rsquo;,r|s,a).</p>
 <p>State Value
-<img alt="Value Function" loading="lazy" src="images/value_function.png">
+<img alt="Value Function" loading="lazy" src="https://kwquan.github.io/rl-journal/images/value_function.png">
 State Value[or Value function] measures how good it is to be in a particular state S.<br>
 It consists of the following: Summation of all probabilities of action A, multiplied to summation of all transition probabilities to different states S&rsquo;,<br>
 multiplied to sum of reward + discounted value of next state value V(S&rsquo;).</p>
 <p>State-Action Value
-<img alt="Action-Value Function" loading="lazy" src="images/action_value_function.png">
+<img alt="Action-Value Function" loading="lazy" src="https://kwquan.github.io/rl-journal/images/action_value_function.png">
 State-Action Value measures how good it is to be in a particular state S AND taking action A.
 It is. a shortened version of the State value[without the summation over all action probabilities]: Summation of all transition probabilities to different states S&rsquo;,  multiplied to sum of reward + discounted value of next state value V(S&rsquo;).</p>
 <p>Note that the above equations for both V(S) &amp; Q(S,A) are known as bellman equations, which will be used as update rules in the next chapter.</p>
@@ -155,7 +230,7 @@ It is. a shortened version of the State value[without the summation over all act
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">RL Journal</a></span> · 
+        <span>&copy; 2026 <a href="https://kwquan.github.io/rl-journal/">RL Journal</a></span> · 
 
     
     
