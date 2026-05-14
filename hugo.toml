@@ -9,6 +9,7 @@ theme = "PaperMod"
   profileMode.enabled = true
   profileMode.title = "RL Journal"
   profileMode.subtitle = "Reinforcement learning notes, projects, and experiments — documenting the path to autonomous drone systems."
+  profileMode.imageUrl = "/images/profile.png"
   showAllPagesInSection = true
   mainSections = []
   ShowBreadCrumbs = false
