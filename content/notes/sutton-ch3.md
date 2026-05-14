@@ -11,7 +11,7 @@ Markov decision process consists of an agent interacting with an environment.
  In otherwords, the future is independent of the past given the present.
 
  Backup Diagram
- ![Backup Diagram](/link/mdp.png)
+ ![Backup Diagram](/images/link.png)
  This diagram shows how state-action values and state-values are linked.  
  Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,  
  which leads to different states S' & reward defined by transition probabilities p(S',r|s,a).
