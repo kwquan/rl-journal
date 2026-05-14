@@ -1,4 +1,4 @@
-baseURL = "https://kwquan/rl-journal.github.io/"
+baseURL = "https://kwquan.github.io/rl-journal/"
 languageCode = "en-us"
 title = "RL Journal"
 theme = "PaperMod"
