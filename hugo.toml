@@ -8,11 +8,11 @@ theme = "PaperMod"
 
 [[menu.main]]
   name = "Notes"
-  url = "/notes/"
+  url = "/rl-journal/notes/"
   weight = 1
 
 [[menu.main]]
   name = "Projects"
-  url = "/projects/"
+  url = "/rl-journal/projects/"
   weight = 2
   
