@@ -1,7 +1,7 @@
 canonifyURLs = true
 baseURL = "https://kwquan.github.io/rl-journal/"
 languageCode = "en-us"
-title = "RL Journal"
+title = "Home"
 theme = "PaperMod"
 [params]
   homeInfoParams.Title = "RL Journal"
