@@ -3,7 +3,6 @@ date = '2026-05-14T09:41:25+08:00'
 draft = false
 title = 'Sutton Ch4'
 +++
-Dynamic Programming. 
 Dynamic programming involves breaking down a problem into subproblems, whose solutions can be combined to become the solution to the main problem. Although it's uses are limited due to assumption of a perfect model & great computational expense[curse of dimensionality], nonetheless it serves as a great introduction to RL problems.  
 
 Prediction
@@ -14,7 +13,7 @@ Recall that the value function is calculated as shown above.
 ![Value Function Update Rule](/images/value_function_update_rule.png) 
 To modify it for updating state-values, we simply replace the π on the left side with k+1 & the π on the right side with k. 
 
-Control.  
+Control  
 This refers to updating current policy to the optimal policy. 
 
 Policy Iteration
