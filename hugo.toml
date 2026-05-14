@@ -2,3 +2,5 @@ baseURL = "https://kwquan.github.io/rl-journal/"
 languageCode = "en-us"
 title = "RL Journal"
 theme = "PaperMod"
+[params]
+  canonifyURLs = true
