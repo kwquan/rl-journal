@@ -5,6 +5,7 @@ title = "RL Journal"
 theme = "PaperMod"
 [params]
   showAllPagesInSection = true
+  mainSections = []
 
 [[menu.main]]
   name = "Notes"
