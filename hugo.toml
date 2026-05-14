@@ -4,6 +4,11 @@ languageCode = "en-us"
 title = "RL Journal"
 theme = "PaperMod"
 [params]
+  homeInfoParams.Title = "RL Journal"
+  homeInfoParams.Content = "Notes and Projects from my journey into reinforcement learning and autonomous systems."
+  profileMode.enabled = true
+  profileMode.title = "RL Journal"
+  profileMode.subtitle = "Reinforcement learning notes, projects, and experiments — documenting the path to autonomous drone systems."
   showAllPagesInSection = true
   mainSections = []
   ShowBreadCrumbs = false
