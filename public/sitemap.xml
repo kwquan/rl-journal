@@ -2,17 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kwquan.github.io/rl-journal/notes/</loc>
+    <loc>http://localhost:1313/rl-journal/</loc>
+    <lastmod>2026-05-16T14:30:16+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/rl-journal/notes/</loc>
+    <lastmod>2026-05-16T14:30:16+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/rl-journal/notes/sutton-ch5/</loc>
+    <lastmod>2026-05-16T14:30:16+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/rl-journal/notes/sutton-ch4/</loc>
+    <lastmod>2026-05-14T09:41:25+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/rl-journal/notes/sutton-ch3/</loc>
     <lastmod>2026-05-13T10:54:25+08:00</lastmod>
   </url><url>
-    <loc>https://kwquan.github.io/rl-journal/</loc>
-    <lastmod>2026-05-13T10:54:25+08:00</lastmod>
+    <loc>http://localhost:1313/rl-journal/categories/</loc>
   </url><url>
-    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch3/</loc>
-    <lastmod>2026-05-13T10:54:25+08:00</lastmod>
-  </url><url>
-    <loc>https://kwquan.github.io/rl-journal/categories/</loc>
-  </url><url>
-    <loc>https://kwquan.github.io/rl-journal/tags/</loc>
+    <loc>http://localhost:1313/rl-journal/tags/</loc>
   </url>
 </urlset>
