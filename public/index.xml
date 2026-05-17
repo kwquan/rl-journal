@@ -6,8 +6,15 @@
     <description>Recent content on main</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 14:30:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 16:30:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/rl-journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sutton Ch6</title>
+      <link>http://localhost:1313/rl-journal/notes/sutton-ch6/</link>
+      <pubDate>Sun, 17 May 2026 16:30:16 +0800</pubDate>
+      <guid>http://localhost:1313/rl-journal/notes/sutton-ch6/</guid>
+      <description>&lt;p&gt;Temporal-Difference Learning&lt;br&gt;&#xA;Here, we combine the ideas of monte-carlo &amp;amp; dynamic programming to td-learning, which can be said to be the novel &amp;amp; central idea to reinforcement learning. Similar to monte-carlo, td-learning learns from experience. And similar to dynamic programming, TD methods bootstrap.&lt;/p&gt;&#xA;&lt;p&gt;TD Prediction&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/incremental_update.png&#34; alt=&#34;Incremental update&#34;&gt;&#xA;Recall the incremental update rule for monte-carlo methods as shown above.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/td_prediction.png&#34; alt=&#34;Temporal Difference Prediction&#34;&gt;&#xA;Here, we replace the return with the sum of immediate reward + discounted value of the next state-value. This sum is known as the td target. The difference between this sum &amp;amp; the current state-value is known as the td error. This example is also known as TD(0) or one-step TD, since we are doing 1 step look-ahead.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sutton Ch5</title>
       <link>http://localhost:1313/rl-journal/notes/sutton-ch5/</link>
