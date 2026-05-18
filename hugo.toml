@@ -1,12 +1,12 @@
 canonifyURLs = true
 baseURL = "https://kwquan.github.io/rl-journal/"
 languageCode = "en-us"
-title = "main"
+title = "RL Journal"
 theme = "PaperMod"
 [params]
   profileMode.enabled = true
   profileMode.title = "RL Journal"
-  profileMode.subtitle = "Reinforcement learning notes, projects, and experiments — documenting the path to autonomous drone systems."
+  profileMode.subtitle = "Reinforcement learning notes, projects, and experiments - documenting the path to autonomous drone systems."
   profileMode.imageUrl = "/rl-journal/images/profile.png"
   showAllPagesInSection = true
   mainSections = []
