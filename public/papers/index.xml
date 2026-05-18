@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Papers on main</title>
+    <link>http://localhost:1313/rl-journal/papers/</link>
+    <description>Recent content in Papers on main</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 May 2026 17:55:25 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/rl-journal/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proximal Policy Optimization</title>
+      <link>http://localhost:1313/rl-journal/papers/ppo/</link>
+      <pubDate>Mon, 18 May 2026 17:55:25 +0800</pubDate>
+      <guid>http://localhost:1313/rl-journal/papers/ppo/</guid>
+      <description>&lt;p&gt;Proximal Policy Optimization[PPO]&lt;br&gt;&#xA;link: &lt;a href=&#34;https://arxiv.org/abs/1707.06347&#34;&gt;https://arxiv.org/abs/1707.06347&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

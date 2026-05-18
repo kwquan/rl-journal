@@ -6,8 +6,29 @@
     <description>Recent content in Notes on main</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 May 2026 16:30:16 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 19:45:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/rl-journal/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sutton Ch13(a brief summary)</title>
+      <link>http://localhost:1313/rl-journal/notes/sutton-ch13/</link>
+      <pubDate>Sun, 17 May 2026 19:45:16 +0800</pubDate>
+      <guid>http://localhost:1313/rl-journal/notes/sutton-ch13/</guid>
+      <description>&lt;p&gt;Policy Gradient Methods&lt;br&gt;&#xA;If a model is used to estimate policy using a differentiable parameter, these methods are known as policy-gradient methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/policy_gradient.png&#34; alt=&#34;policy_gradient&#34;&gt;&#xA;As shown above, if state-value function is used as performance measure, it&amp;rsquo;s derivative can be shown to be directly-proportional to the derivative of the policy. Thus, doing gradient descent on this can lead to an improved policy as well.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/actor_critic.png&#34; alt=&#34;actor_critic&#34;&gt;&#xA;Actor-Critic Methods&lt;br&gt;&#xA;Methods that estimate both value function &amp;amp; policy are known as actor-critic methods. The actor refers to the learned policy, which takes state as input &amp;amp; outputs action. The critic &amp;ldquo;critizes&amp;rdquo; the action by calculating it&amp;rsquo;s action-value estimates. The loss calculated by taking the difference between &amp;ldquo;true&amp;rdquo; &amp;amp; estimated action values will enable gradient descent for both estimate models &amp;amp; gradual improvement towards optimality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sutton Ch9</title>
+      <link>http://localhost:1313/rl-journal/notes/sutton-ch9/</link>
+      <pubDate>Sun, 17 May 2026 17:35:16 +0800</pubDate>
+      <guid>http://localhost:1313/rl-journal/notes/sutton-ch9/</guid>
+      <description>&lt;p&gt;Function Approximation&lt;br&gt;&#xA;So far, we have considered methods that operate in gridworld environments whose state/action values are stored in memory. However in reality, such gridworlds are rare &amp;amp; environments are usually represented by continuous state variables. If such variables were to be stored in tabular manner, it will definitely require too much memory.&lt;/p&gt;&#xA;&lt;p&gt;Instead, we introduce function approximation. This uses certain methods[neural networks, linear methods etc] for estimating state/action values by using state and/or action pairs as model inputs, and having a differentiable weight vector w.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sutton Ch8(a brief summary)</title>
+      <link>http://localhost:1313/rl-journal/notes/sutton-ch8/</link>
+      <pubDate>Sun, 17 May 2026 17:29:16 +0800</pubDate>
+      <guid>http://localhost:1313/rl-journal/notes/sutton-ch8/</guid>
+      <description>&lt;p&gt;Dyna&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/dyna.png&#34; alt=&#34;Dyna&#34;&gt;&#xA;We introduce dyna, which combines planning, acting &amp;amp; learning. In addition to real world experiences[learning], it also builds a model of the environment whose memory experiences are also used to update action-values[planning].&lt;br&gt;&#xA;This combination of learning from both real &amp;amp; simulated experiences helps agent to solve the environment faster compared to previous TD methods.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sutton Ch6</title>
       <link>http://localhost:1313/rl-journal/notes/sutton-ch6/</link>
