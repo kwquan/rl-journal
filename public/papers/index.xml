@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papers on RL Journal</title>
-    <link>http://localhost:1313/rl-journal/papers/</link>
+    <link>https://kwquan.github.io/rl-journal/papers/</link>
     <description>Recent content in Papers on RL Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 May 2026 17:55:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/rl-journal/papers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kwquan.github.io/rl-journal/papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proximal Policy Optimization</title>
-      <link>http://localhost:1313/rl-journal/papers/ppo/</link>
+      <link>https://kwquan.github.io/rl-journal/papers/ppo/</link>
       <pubDate>Mon, 18 May 2026 17:55:25 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/papers/ppo/</guid>
+      <guid>https://kwquan.github.io/rl-journal/papers/ppo/</guid>
       <description>&lt;p&gt;Proximal Policy Optimization[PPO]&lt;br&gt;&#xA;link: &lt;a href=&#34;https://arxiv.org/abs/1707.06347&#34;&gt;https://arxiv.org/abs/1707.06347&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/rl-journal/papers/</loc>
+    <loc>https://kwquan.github.io/rl-journal/papers/</loc>
     <lastmod>2026-05-18T17:55:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/papers/ppo/</loc>
+    <loc>https://kwquan.github.io/rl-journal/papers/ppo/</loc>
     <lastmod>2026-05-18T17:55:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/</loc>
+    <loc>https://kwquan.github.io/rl-journal/</loc>
     <lastmod>2026-05-18T17:55:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/</loc>
     <lastmod>2026-05-17T19:45:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch13/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch13/</loc>
     <lastmod>2026-05-17T19:45:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch9/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch9/</loc>
     <lastmod>2026-05-17T17:35:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch8/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch8/</loc>
     <lastmod>2026-05-17T17:29:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch6/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch6/</loc>
     <lastmod>2026-05-17T16:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch5/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch5/</loc>
     <lastmod>2026-05-16T14:30:16+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch4/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch4/</loc>
     <lastmod>2026-05-14T09:41:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/notes/sutton-ch3/</loc>
+    <loc>https://kwquan.github.io/rl-journal/notes/sutton-ch3/</loc>
     <lastmod>2026-05-13T10:54:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/categories/</loc>
+    <loc>https://kwquan.github.io/rl-journal/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/projects/</loc>
+    <loc>https://kwquan.github.io/rl-journal/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/rl-journal/tags/</loc>
+    <loc>https://kwquan.github.io/rl-journal/tags/</loc>
   </url>
 </urlset>

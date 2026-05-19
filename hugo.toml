@@ -4,13 +4,15 @@ languageCode = "en-us"
 title = "RL Journal"
 theme = "PaperMod"
 [params]
-  profileMode.enabled = true
-  profileMode.title = "RL Journal"
-  profileMode.subtitle = "Reinforcement learning notes, projects, and experiments - documenting the path to autonomous drone systems."
-  profileMode.imageUrl = "/rl-journal/images/profile.png"
   showAllPagesInSection = true
   mainSections = []
   ShowBreadCrumbs = false
+
+[params.profileMode]
+  enabled = true
+  title = "RL Journal"
+  subtitle = "Reinforcement learning notes, projects, and experiments - documenting the path to autonomous drone systems."
+  imageUrl = "/rl-journal/images/profile.png"  
 
 [[menu.main]]
   name = "Notes"

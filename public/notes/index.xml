@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on RL Journal</title>
-    <link>http://localhost:1313/rl-journal/notes/</link>
+    <link>https://kwquan.github.io/rl-journal/notes/</link>
     <description>Recent content in Notes on RL Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 May 2026 19:45:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/rl-journal/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kwquan.github.io/rl-journal/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sutton Ch13(a brief summary)</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch13/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch13/</link>
       <pubDate>Sun, 17 May 2026 19:45:16 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch13/</guid>
-      <description>&lt;p&gt;Policy Gradient Methods&lt;br&gt;&#xA;If a model is used to estimate policy using a differentiable parameter, these methods are known as policy-gradient methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/policy_gradient.png&#34; alt=&#34;policy_gradient&#34;&gt;&#xA;As shown above, if state-value function is used as performance measure, it&amp;rsquo;s derivative can be shown to be directly-proportional to the derivative of the policy. Thus, doing gradient descent on this can lead to an improved policy as well.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/actor_critic.png&#34; alt=&#34;actor_critic&#34;&gt;&#xA;Actor-Critic Methods&lt;br&gt;&#xA;Methods that estimate both value function &amp;amp; policy are known as actor-critic methods. The actor refers to the learned policy, which takes state as input &amp;amp; outputs action. The critic &amp;ldquo;critizes&amp;rdquo; the action by calculating it&amp;rsquo;s action-value estimates. The loss calculated by taking the difference between &amp;ldquo;true&amp;rdquo; &amp;amp; estimated action values will enable gradient descent for both estimate models &amp;amp; gradual improvement towards optimality.&lt;/p&gt;</description>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch13/</guid>
+      <description>&lt;p&gt;Policy Gradient Methods&lt;br&gt;&#xA;If a model is used to estimate policy using a differentiable parameter, these methods are known as policy-gradient methods.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/policy_gradient.png&#34; alt=&#34;policy_gradient&#34;&gt;&#xA;As shown above, if state-value function is used as performance measure, it&amp;rsquo;s derivative can be shown to be directly-proportional to the derivative of the policy. Thus, doing gradient descent on this can lead to an improved policy as well.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/actor_critic.png&#34; alt=&#34;actor_critic&#34;&gt;&#xA;Actor-Critic Methods&lt;br&gt;&#xA;Methods that estimate both value function &amp;amp; policy are known as actor-critic methods. The actor refers to the learned policy, which takes state as input &amp;amp; outputs action. The critic &amp;ldquo;critizes&amp;rdquo; the action by calculating it&amp;rsquo;s action-value estimates. The loss calculated by taking the difference between &amp;ldquo;true&amp;rdquo; &amp;amp; estimated action values will enable gradient descent for both estimate models &amp;amp; gradual improvement towards optimality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch9</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch9/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch9/</link>
       <pubDate>Sun, 17 May 2026 17:35:16 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch9/</guid>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch9/</guid>
       <description>&lt;p&gt;Function Approximation&lt;br&gt;&#xA;So far, we have considered methods that operate in gridworld environments whose state/action values are stored in memory. However in reality, such gridworlds are rare &amp;amp; environments are usually represented by continuous state variables. If such variables were to be stored in tabular manner, it will definitely require too much memory.&lt;/p&gt;&#xA;&lt;p&gt;Instead, we introduce function approximation. This uses certain methods[neural networks, linear methods etc] for estimating state/action values by using state and/or action pairs as model inputs, and having a differentiable weight vector w.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch8(a brief summary)</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch8/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch8/</link>
       <pubDate>Sun, 17 May 2026 17:29:16 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch8/</guid>
-      <description>&lt;p&gt;Dyna&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/dyna.png&#34; alt=&#34;Dyna&#34;&gt;&#xA;We introduce dyna, which combines planning, acting &amp;amp; learning. In addition to real world experiences[learning], it also builds a model of the environment whose memory experiences are also used to update action-values[planning].&lt;br&gt;&#xA;This combination of learning from both real &amp;amp; simulated experiences helps agent to solve the environment faster compared to previous TD methods.&lt;/p&gt;</description>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch8/</guid>
+      <description>&lt;p&gt;Dyna&lt;br&gt;&#xA;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/dyna.png&#34; alt=&#34;Dyna&#34;&gt;&#xA;We introduce dyna, which combines planning, acting &amp;amp; learning. In addition to real world experiences[learning], it also builds a model of the environment whose memory experiences are also used to update action-values[planning].&lt;br&gt;&#xA;This combination of learning from both real &amp;amp; simulated experiences helps agent to solve the environment faster compared to previous TD methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch6</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch6/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch6/</link>
       <pubDate>Sun, 17 May 2026 16:30:16 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch6/</guid>
-      <description>&lt;p&gt;Temporal-Difference Learning&lt;br&gt;&#xA;Here, we combine the ideas of monte-carlo &amp;amp; dynamic programming to td-learning, which can be said to be the novel &amp;amp; central idea to reinforcement learning. Similar to monte-carlo, td-learning learns from experience. And similar to dynamic programming, TD methods bootstrap.&lt;/p&gt;&#xA;&lt;p&gt;TD Prediction&lt;br&gt;&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/incremental_update.png&#34; alt=&#34;Incremental update&#34;&gt;&#xA;Recall the incremental update rule for monte-carlo methods as shown above.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/rl-journal/images/td_prediction.png&#34; alt=&#34;Temporal Difference Prediction&#34;&gt;&#xA;Here, we replace the return with the sum of immediate reward + discounted value of the next state-value. This sum is known as the td target. The difference between this sum &amp;amp; the current state-value is known as the td error. This example is also known as TD(0) or one-step TD, since we are doing 1 step look-ahead.&lt;/p&gt;</description>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch6/</guid>
+      <description>&lt;p&gt;Temporal-Difference Learning&lt;br&gt;&#xA;Here, we combine the ideas of monte-carlo &amp;amp; dynamic programming to td-learning, which can be said to be the novel &amp;amp; central idea to reinforcement learning. Similar to monte-carlo, td-learning learns from experience. And similar to dynamic programming, TD methods bootstrap.&lt;/p&gt;&#xA;&lt;p&gt;TD Prediction&lt;br&gt;&#xA;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/incremental_update.png&#34; alt=&#34;Incremental update&#34;&gt;&#xA;Recall the incremental update rule for monte-carlo methods as shown above.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/td_prediction.png&#34; alt=&#34;Temporal Difference Prediction&#34;&gt;&#xA;Here, we replace the return with the sum of immediate reward + discounted value of the next state-value. This sum is known as the td target. The difference between this sum &amp;amp; the current state-value is known as the td error. This example is also known as TD(0) or one-step TD, since we are doing 1 step look-ahead.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch5</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch5/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch5/</link>
       <pubDate>Sat, 16 May 2026 14:30:16 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch5/</guid>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch5/</guid>
       <description>&lt;p&gt;Model Free Prediction&lt;br&gt;&#xA;In reality, perfect model of the environment is rarely known[reward,transition probability, policy etc]. Thus, there is a need to estimate the value function of an unknown MDP.&lt;/p&gt;&#xA;&lt;p&gt;Monte-Carlo&lt;br&gt;&#xA;One of the methods we can use to estimate an unknown MDP is monte-carlo. As the term implies, monte-carlo learns directly from experience by estimating the value of each state as simply the average of episodic rewards from that state onwards. The idea is that as each state is visited enough times, the average reward for each state should approach it&amp;rsquo;s real state-value accordingly to the law of large numbers. We can divide it into first-visit &amp;amp; every-visit monte-carlo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch4</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch4/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch4/</link>
       <pubDate>Thu, 14 May 2026 09:41:25 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch4/</guid>
-      <description>&lt;p&gt;Dynamic programming involves breaking down a problem into subproblems, whose solutions can be combined to become the solution to the main problem. Although it&amp;rsquo;s uses are limited due to assumption of a perfect model &amp;amp; great computational expense[curse of dimensionality], nonetheless it serves as a great introduction to RL problems.&lt;/p&gt;&#xA;&lt;p&gt;Prediction&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/value_function.png&#34; alt=&#34;Value Function&#34;&gt;&#xA;This refers to computing the state-value function V(s) for a policy π.&lt;br&gt;&#xA;Recall that the value function is calculated as shown above.&lt;/p&gt;</description>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch4/</guid>
+      <description>&lt;p&gt;Dynamic programming involves breaking down a problem into subproblems, whose solutions can be combined to become the solution to the main problem. Although it&amp;rsquo;s uses are limited due to assumption of a perfect model &amp;amp; great computational expense[curse of dimensionality], nonetheless it serves as a great introduction to RL problems.&lt;/p&gt;&#xA;&lt;p&gt;Prediction&#xA;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/value_function.png&#34; alt=&#34;Value Function&#34;&gt;&#xA;This refers to computing the state-value function V(s) for a policy π.&lt;br&gt;&#xA;Recall that the value function is calculated as shown above.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sutton Ch3</title>
-      <link>http://localhost:1313/rl-journal/notes/sutton-ch3/</link>
+      <link>https://kwquan.github.io/rl-journal/notes/sutton-ch3/</link>
       <pubDate>Wed, 13 May 2026 10:54:25 +0800</pubDate>
-      <guid>http://localhost:1313/rl-journal/notes/sutton-ch3/</guid>
-      <description>&lt;p&gt;Markov Decision Process&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/mdp.png&#34; alt=&#34;MDP&#34;&gt;&#xA;Markov decision process consists of an agent interacting with an environment.&lt;br&gt;&#xA;The agent implements action A in state S at time t, with the environment returning State S and reward R at time t+1.&lt;br&gt;&#xA;Current state contains enough information about the past.&lt;br&gt;&#xA;In otherwords, the future is independent of the past given the present.&lt;/p&gt;&#xA;&lt;p&gt;Backup Diagram&#xA;&lt;img src=&#34;http://localhost:1313/rl-journal/images/link.png&#34; alt=&#34;Backup Diagram&#34;&gt;&#xA;This diagram shows how state-action values and state-values are linked.&lt;br&gt;&#xA;Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,&lt;br&gt;&#xA;which leads to different states S&amp;rsquo; &amp;amp; reward defined by transition probabilities p(S&amp;rsquo;,r|s,a).&lt;/p&gt;</description>
+      <guid>https://kwquan.github.io/rl-journal/notes/sutton-ch3/</guid>
+      <description>&lt;p&gt;Markov Decision Process&#xA;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/mdp.png&#34; alt=&#34;MDP&#34;&gt;&#xA;Markov decision process consists of an agent interacting with an environment.&lt;br&gt;&#xA;The agent implements action A in state S at time t, with the environment returning State S and reward R at time t+1.&lt;br&gt;&#xA;Current state contains enough information about the past.&lt;br&gt;&#xA;In otherwords, the future is independent of the past given the present.&lt;/p&gt;&#xA;&lt;p&gt;Backup Diagram&#xA;&lt;img src=&#34;https://kwquan.github.io/rl-journal/images/link.png&#34; alt=&#34;Backup Diagram&#34;&gt;&#xA;This diagram shows how state-action values and state-values are linked.&lt;br&gt;&#xA;Starting from a given state S, the agent takes different actions A with probabilities defined by policy π,&lt;br&gt;&#xA;which leads to different states S&amp;rsquo; &amp;amp; reward defined by transition probabilities p(S&amp;rsquo;,r|s,a).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
