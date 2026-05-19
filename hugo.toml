@@ -1,3 +1,4 @@
+canonifyURLs = true
 relativeURLs = false
 baseURL = "https://kwquan.github.io/rl-journal/"
 languageCode = "en-us"
