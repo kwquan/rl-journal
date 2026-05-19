@@ -15,15 +15,15 @@ theme = "PaperMod"
 
 [[menu.main]]
   name = "Notes"
-  url = "/rl-journal/notes/"
+  url = "/notes/"
   weight = 1
 
 [[menu.main]]
   name = "Papers"
-  url = "/rl-journal/papers/"
+  url = "/papers/"
   weight = 2
 
 [[menu.main]]
   name = "Projects"
-  url = "/rl-journal/projects/"
+  url = "/projects/"
   weight = 3
