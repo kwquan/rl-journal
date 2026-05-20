@@ -50,6 +50,12 @@ We also introduce Agent class, which inherits from nn.Module. This class contain
 
 Note that the logits produced from self.actor(x) are numbers. We convert them to probability distribution using Categorical(logits).  
 
+![Orthogonal_explanation](https://kwquan.github.io/rl-journal/images/orthogonal_exp.png)
+![Orthogonal](https://kwquan.github.io/rl-journal/images/orthogonal_matrix.png)
+![Random](https://kwquan.github.io/rl-journal/images/random_init.png)
+![Random_2](https://kwquan.github.io/rl-journal/images/random_init_2.png)
+Note the above for orthogonal weights initialization.  
+
 First: initialise Args class as args  
 
 Next: if train_agent, starts agent training. Else, skips to render portion.
