@@ -115,7 +115,7 @@ AFTER training completed:
 
 Episode Returns  
 ![Episode Rewards](https://kwquan.github.io/rl-journal/images/lunar_lander_episode_rewards.png)
-Check if episode rewards graph is similar to the above.
+Check if episode rewards graph is similar to the above. Rewards should start out as negative, then gradually stabilise around the 200 threshold.
 
 Render Portion  
 1) Initialize environment, device & agent. Load saved trained model weights.   
