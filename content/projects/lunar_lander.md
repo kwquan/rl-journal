@@ -125,7 +125,7 @@ Render Portion
 3) Finally, print out number of episodes with total reward exceeding 200.  
 
 Conclusion  
-PPO is definitely not easy to digest. The above code & the "PPO" post[under "papers" section] serve to make it easier for newcomers by simplifying the code used & explaining the concepts involved.  
+PPO is definitely not easy to digest. The above code & the "Proximal Policy Optimization" post[under "Papers" section] serve to make it easier for newcomers by simplifying the code used & explaining the concepts involved.  
 The trained agent is by no means the best-performing. Feel free to tweak the params & improve it further.
 
 
