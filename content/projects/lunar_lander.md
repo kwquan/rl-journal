@@ -18,7 +18,7 @@ Agent needs to achieve safe landing using the least firing of thrusters.
 
 INSTRUCTIONS   
 1) Clone repo/Download "lunar_lander.py" & "lunar_lander_ppo.pth"
-[https://github.com/kwquan/farama-lunarlander]  
+[https://github.com/kwquan/farama-lunarlander].  
 
 2) If training of agent is desired, change "train_agent" to "True"[default value].  
 
@@ -106,12 +106,16 @@ b) Taking the exponential of the result
 
 6) Finally, calculate loss = pg_loss - args.ent_coef * entropy_loss + v_loss * args.vf_coef
 
-7) Backpropagation 
+7) Backpropagation. 
 
 AFTER training completed:  
-1) Save trained model weights to "lunar_lander_ppo.pth"
+1) Save trained model weights to "lunar_lander_ppo.pth".
 
-2) Run render portion 
+2) Run render portion.
+
+Episode Returns  
+![Episode Rewards](https://kwquan.github.io/rl-journal/images/lunar_lander_episode_rewards.png)
+Check if episode rewards graph is similar to the above.
 
 Render Portion  
 1) Initialize environment, device & agent. Load saved trained model weights.   
