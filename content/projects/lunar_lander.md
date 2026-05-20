@@ -31,21 +31,21 @@ INSTRUCTIONS
 CODE EXPLANATION
 ![Classes & Function](https://kwquan.github.io/rl-journal/images/lunar_lander_classes.png)
 We introduce the Args class containing all of the required parameters for agent training:
-    num_episodes: number of training episodes
-    num_steps: number of training steps for each episode. We shall stick with this for now[as introduced in the referenced repo]. Else, can change to end episode upon done[either terminate or truncate] 
-    gamma: for calculating delta, advantages
-    gae_lambda: for calculating advantages
-    batch_size: training batch size. We shall consider all of each episode for now
-    minibatch_size: For splitting each training batch into minibatches
-    clip_coef: for preventing ratio from becoming too big. As mentioned in the PPO paper, if ratio is too positive, we shall use 1+clip_coef. If it's too negative, we shall use 1-clip_coef.
-    ent_coef: for multiplying to entropy loss
-    vf_coef: for multiplying to value loss
-    norm_adv: if set to True, will normalize advantage
-    update_epochs: number of training passes through each training batch
-    max_grad_norm: for preventing gradient updates from becoming too large
-    learning_rate: model learning rate
-    train_agent: if train agent, set to True. If want to load to trained weights & observe agent in action only, set to False
-    render_episodes: number of episodes for observing trained agent in action
+    num_episodes: number of training episodes  
+    num_steps: number of training steps for each episode. We shall stick with this for now[as introduced in the referenced repo]. Else, can change to end episode upon done[either terminate or truncate]   
+    gamma: for calculating delta, advantages  
+    gae_lambda: for calculating advantages  
+    batch_size: training batch size. We shall consider all of each episode for now  
+    minibatch_size: For splitting each training batch into minibatches  
+    clip_coef: for preventing ratio from becoming too big. As mentioned in the PPO paper, if ratio is too positive, we shall use 1+clip_coef. If it's too negative, we shall use 1-clip_coef  
+    ent_coef: for multiplying to entropy loss  
+    vf_coef: for multiplying to value loss  
+    norm_adv: if set to True, will normalize advantage  
+    update_epochs: number of training passes through each training batch  
+    max_grad_norm: for preventing gradient updates from becoming too large  
+    learning_rate: model learning rate  
+    train_agent: if train agent, set to True. If want to load to trained weights & observe agent in action only, set to False  
+    render_episodes: number of episodes for observing trained agent in action  
 
 We also introduce Agent class, which inherits from nn.Module. This class contains the neural network architecture for both actor & critic models, in addition to 2 methods[get_value, get_action_and_value]. get_value method takes state as input to critic & outputs estimated state value. get_action_and_value takes states as input to actor & outputs action, logprob, entropy & estimated state value[from critic].  
 
