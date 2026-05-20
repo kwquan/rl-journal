@@ -17,7 +17,8 @@ Refer to the official documentation for explanation on actions & rewards. To put
 Agent needs to achieve safe landing using the least firing of thrusters.
 
 INSTRUCTIONS   
-1) Download "lunar_lander.py" & "lunar_lander_ppo.pth".  
+1) Clone repo/Download "lunar_lander.py" & "lunar_lander_ppo.pth"
+[https://github.com/kwquan/farama-lunarlander]  
 
 2) If training of agent is desired, change "train_agent" to "True"[default value].  
 
